@@ -17,12 +17,10 @@ html {
 }
 .body-img {
     background-color: rgb(12, 9, 12);
+    background-image: url(../images/bgbody.jpg);
     padding: 15px;
     margin: 0 auto;
-    padding: 1rem 1rem 1rem 1rem;
-}
-.body-img:hover {
-    border: 5px solid #47c8df;
+    padding: 1rem 1rem 1rem 3rem;
 }
 #link {
     background-color: rgb(91, 133, 212);
@@ -34,6 +32,10 @@ img {
     max-width: 100%;
     height: auto;
     padding: 2px;
+    border-radius: 25px;
+}
+img:hover {
+    transform: translate(10px, 40px);
 }
 @media only screen and (max-width: 700px) {
     .body-img{
