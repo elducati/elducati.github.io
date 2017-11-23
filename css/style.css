@@ -1,36 +1,39 @@
 .header {
     text-align: center;
     font-size: 52px;
-    color: rgb(143, 144, 241);
+    color: rgb(233, 60, 17);
     padding: 15px;
-    background-color: rgb(14, 8, 8);
+    background-color: black;
+    background-image: url(../images/alien.jpg);
+    
 }
 html {
     font-family: "Lucida Sans", sans-serif;
+    
 }
 #small-h {
     font-size: 28px;
     color: rgb(245, 239, 239);
 }
 .body-img {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(12, 9, 12);
     padding: 15px;
     margin: 0 auto;
-    padding: 0 1rem;
-    
-
+    padding: 1rem 1rem 1rem 1rem;
 }
 .body-img:hover {
-    border: 1px solid #777777;
+    border: 5px solid #47c8df;
 }
 #link {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(91, 133, 212);
     text-align: center;
     font-size: 25px;
+    background-image: url(../images/abstract1.jpg);
 }
 img {
     max-width: 100%;
     height: auto;
+    padding: 2px;
 }
 @media only screen and (max-width: 700px) {
     .body-img{
@@ -40,7 +43,7 @@ img {
         margin: 6px 0;
     }
     img {
-        width: 49.9999%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -51,6 +54,7 @@ img {
     img {
         width: 100%;
     }
+    
 }
 @media screen and (min-width: 2500px){
     img {
