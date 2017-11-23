@@ -41,9 +41,6 @@ html {
     margin: 0 auto;
     padding: 1rem 1rem 1rem 3rem;
 }
-.cart {
-    position: relative;
-}
 
 #link {
     background-color: rgb(91, 133, 212);
@@ -54,6 +51,9 @@ html {
 background-image {
     width: 100%;
     height: auto;
+}
+.cart {
+    width: 32px;
 }
 img {
     max-width: 100%;
@@ -83,7 +83,10 @@ img {
     img {
         width: 100%;
     }
-    
+    ul {
+        display: block;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 2500px){
     img {
