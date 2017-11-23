@@ -7,6 +7,25 @@
     background-image: url(../images/alien.jpg);
     
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+li {
+
+    padding: 0 30px;
+}
+.nav {
+    background-color: black;
+    
+}
+li a {
+    color: rgba(233, 202, 202, 0.336);
+}
 html {
     font-family: "Lucida Sans", sans-serif;
     
@@ -22,11 +41,19 @@ html {
     margin: 0 auto;
     padding: 1rem 1rem 1rem 3rem;
 }
+.cart {
+    position: relative;
+}
+
 #link {
     background-color: rgb(91, 133, 212);
     text-align: center;
     font-size: 25px;
     background-image: url(../images/abstract1.jpg);
+}
+background-image {
+    width: 100%;
+    height: auto;
 }
 img {
     max-width: 100%;
@@ -34,7 +61,7 @@ img {
     padding: 2px;
     border-radius: 25px;
 }
-img:hover {
+.gallery:hover {
     transform: translate(10px, 40px);
 }
 @media only screen and (max-width: 700px) {
