@@ -1,10 +1,10 @@
 .header {
     text-align: center;
     font-size: 52px;
-    color: rgb(233, 60, 17);
+    color: rgba(0, 153, 255, 0.712);
     padding: 15px;
     background-color: black;
-    background-image: url(../images/alien.jpg);
+    background-image: url(../images/bgbox.jpg);
     
 }
 ul {
@@ -24,7 +24,7 @@ li {
     
 }
 li a {
-    color: rgba(233, 202, 202, 0.336);
+    color: rgba(0, 153, 255, 0.712);
 }
 html {
     font-family: "Lucida Sans", sans-serif;
@@ -40,6 +40,7 @@ html {
     padding: 15px;
     margin: 0 auto;
     padding: 1rem 1rem 1rem 3rem;
+    align-content: center;
 }
 
 #link {
@@ -85,7 +86,7 @@ img {
         width: 100%;
     }
     img {
-        width: 100%;
+        width: auto;
     }
     ul {
         display: block;
