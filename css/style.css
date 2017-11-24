@@ -36,7 +36,7 @@ html {
 }
 .body-img {
     background-color: rgb(12, 9, 12);
-    background-image: url(../images/bgbody.jpg);
+    background-image: url(../images/bgbox.jpg);
     padding: 15px;
     margin: 0 auto;
     padding: 1rem 1rem 1rem 3rem;
@@ -46,7 +46,8 @@ html {
     background-color: rgb(91, 133, 212);
     text-align: center;
     font-size: 25px;
-    background-image: url(../images/abstract1.jpg);
+    background-image: url(../images/bgbox.jpg);
+    
 }
 background-image {
     width: 100%;
@@ -62,7 +63,7 @@ img {
     border-radius: 25px;
 }
 .gallery:hover {
-    transform: translate(10px, 40px);
+    transform: scale(1.5, 1.5);
 }
 @media only screen and (max-width: 700px) {
     .body-img{
