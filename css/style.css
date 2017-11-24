@@ -81,6 +81,9 @@ img {
         width: 100%;
         display: block;
     }
+    .header .nav #link {
+        width: 100%;
+    }
     img {
         width: 100%;
     }
